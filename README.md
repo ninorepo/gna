@@ -8,7 +8,7 @@ int pop_size = 2000;
 int gene_size = 4;
 double mutation_rate = 0.1;
 
-struct GNA_Body *population = gna_init(pop_size, 4, 0.1, fitness_function); // fitness_function should be overiden by your own function
+struct GNA_Body *population = gna_init(pop_size, gene_size, mutation_rate, fitness_function); // fitness_function should be overiden by your own function
 gna_destroy(population);
 ```
 
