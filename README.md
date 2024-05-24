@@ -21,5 +21,6 @@ for (int generation = 0; generation<20; generation++)
 ```
 
 ## Get The Hyperparameters
+```
 double* params = population[0].properties;
-
+```
