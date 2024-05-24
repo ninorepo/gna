@@ -1,0 +1,2 @@
+# gna
+simple genetic algorithm
