@@ -12,7 +12,7 @@ struct GNA_Body *population = gna_init(pop_size, 4, 0.1, fitness_function); // f
 gna_destroy(population);
 ```
 
-## Fitness Funciton Example
+## Fitness Function Example
 ```
 int target[4] = {5, 4, 1, 4};
 int fitness_function(struct GNA_Body chromosome)
