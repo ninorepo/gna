@@ -32,7 +32,7 @@ int fitness_function(struct GNA_Body chromosome)
 ```c
 for (int generation = 0; generation<20; generation++)
 {
-	gna_evolve(pool, 2000, 0.5);
+	gna_evolve(pool, pop_size, 0.5); // 0.5 is parent/child ration
 }
 ```
 
