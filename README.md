@@ -13,6 +13,10 @@ gna_destroy(population);
 ```
 
 ## Fitness Function Example
+You need to overide the fitness_function since this is where the logic of the system reside. This funciton should return int value, and the value would be used to rank the best and the worst chromosome. 
+The function should follow this form: 
+int func_name_you_can_think_of(struct GNA_Body chromosome)
+
 ```c
 int target[4] = {5, 4, 1, 4};
 int min = 1;
