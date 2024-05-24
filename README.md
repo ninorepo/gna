@@ -3,7 +3,7 @@ simple genetic algorithm
 
 # usage
 ## Creating & Destroying Population
-```
+```c
 int pop_size = 2000;
 int gene_size = 4;
 double mutation_rate = 0.1;
@@ -13,7 +13,7 @@ gna_destroy(population);
 ```
 
 ## Fitness Function Example
-```
+```c
 int target[4] = {5, 4, 1, 4};
 int min = 1;
 int max = 10;
@@ -29,7 +29,7 @@ int fitness_function(struct GNA_Body chromosome)
 ```
 
 ## Run Genetic Algorithm
-```
+```c
 for (int generation = 0; generation<20; generation++)
 {
 	gna_evolve(pool, 2000, 0.5);
@@ -37,6 +37,6 @@ for (int generation = 0; generation<20; generation++)
 ```
 
 ## Get The Hyperparameters
-```
+```c
 double* params = population[0].properties;
 ```
