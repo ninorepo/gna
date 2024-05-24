@@ -13,12 +13,12 @@ gna_destroy(population);
 ```
 
 ## Run Genetic Algorithm
-	```
+```
 for (int generation = 0; generation<20; generation++)
 {
 	gna_evolve(pool, 2000, 0.5);
 }
- ```
+```
 
 ## Get The Hyperparameters
 double* params = population[0].properties;
