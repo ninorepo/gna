@@ -32,7 +32,7 @@ int fitness_function(struct GNA_Body chromosome)
 ```c
 for (int generation = 0; generation<20; generation++)
 {
-	gna_evolve(pool, pop_size, 0.5);
+	gna_evolve(population, pop_size, 0.5);
 	// 0.5 is parent/child ratio
 	// example: if you have population of 10 and parent/child ratio of 3/7. It means 3 parents will be crossovered
 	// to generate new children replacing 7 children
