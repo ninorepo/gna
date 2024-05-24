@@ -40,6 +40,8 @@ for (int generation = 0; generation<20; generation++)
 ```
 
 ## Get The Hyperparameters
+The Population always ordered descending. First element should be a chromosome with the best fitness value.
+
 ```c
 double* params = population[0].properties;
 ```
