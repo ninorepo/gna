@@ -15,7 +15,7 @@ gna_destroy(population);
 ## Fitness Funciton Example
 ```
 int target[4] = {5, 4, 1, 4};
-int score(struct GNA_Body chromosome)
+int fitness_function(struct GNA_Body chromosome)
 {
 	int a = (int)abs((int)gna_scale(1, 10, chromosome.properties[0]) - target[0]);
 	int b = (int)abs((int)gna_scale(1, 10, chromosome.properties[1]) - target[1]);
